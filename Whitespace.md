@@ -7,6 +7,7 @@
 
     * write \\n before EOF
     * the action is undefined in C++ ?
+
 * > Make liberal use of vertical whitespace to divide code into logical chunks.
 * > Don't leave trailing whitespace.
 
