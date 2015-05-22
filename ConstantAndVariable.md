@@ -3,6 +3,14 @@
 ##definition
 You can define a few constants or variable connected with each other in the same line.
 
+###global scope
+Don't use global variable.  
+Give name beginning k as prefix to global scope constant.  
+You can define constant with expression.  
+```swift
+let kGoogleAnalyticsTrackingID = NSBundle.mainBundle().objectForInfoDictionaryKey("GoogleAnalyticsTrackingID") as? String
+```
+
 ###Let bindings
 > Prefer `let`-bindings over `var`-bindings wherever possible
 
